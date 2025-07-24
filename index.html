@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이동준 | 포트폴리오</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', 'Inter', sans-serif;
+            background-color: #111827; /* Dark background */
+            color: #F3F4F6; /* Light text */
+        }
+        .font-inter {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card {
+            background-color: #1F2937; /* Darker card background */
+            border: 1px solid #374151;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(56, 189, 248, 0.1), 0 4px 6px -2px rgba(56, 189, 248, 0.05);
+        }
+        .tag {
+            background-color: #374151;
+            color: #E5E7EB;
+        }
+        .project-image {
+            width: 100%;
+            height: 16rem; /* 256px */
+            object-fit: cover;
+        }
+        @media (min-width: 768px) {
+            .project-image {
+                width: 40%; /* md:w-2/5 */
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Hero Section -->
+    <header class="container mx-auto px-6 py-24 md:py-32 text-center">
+        <h1 class="text-4xl md:text-6xl font-black font-inter tracking-tight">
+            <span class="gradient-text">이동준</span>
+        </h1>
+        <p class="mt-4 text-2xl md:text-3xl font-bold text-gray-200">포트폴리오</p>
+        <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-400">
+            6년간 다수의 성공적인 콘텐츠 프로젝트를 리드하며 데이터 기반의 성과 창출과 탁월한 협업 능력을 검증받았습니다. 이러한 경험을 바탕으로 이제 게임 사업 PM으로서 새로운 성공 스토리를 만들고자 합니다.
+        </p>
+    </header>
+
+    <main class="container mx-auto px-6 pb-24">
+
+        <!-- About Me Section -->
+        <section id="about" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-12">핵심 역량</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="card p-8 rounded-xl">
+                    <div class="text-sky-400 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">프로젝트 리딩 및 성과 창출</h3>
+                    <p class="text-gray-400">A to Z 총괄 경험을 바탕으로 대형 프로젝트를 리딩하고, 4천만 뷰 달성 등 가시적인 성과를 만들어냈습니다.</p>
+                </div>
+                <div class="card p-8 rounded-xl">
+                    <div class="text-sky-400 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20V16"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">데이터 기반 성과 개선</h3>
+                    <p class="text-gray-400">데이터 기반의 OKR을 설계하고, 내부 목표 시청 시간을 130% 초과 달성하는 등 지속적인 성과 개선 경험이 있습니다.</p>
+                </div>
+                <div class="card p-8 rounded-xl">
+                    <div class="text-sky-400 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">원활한 협업 및 조율</h3>
+                    <p class="text-gray-400">다수의 제작사, 플랫폼 등 내/외부 이해관계자와의 원활한 커뮤니케이션으로 성공적인 협업을 이끌어냅니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="text-3xl font-bold text-center mb-12">주요 프로젝트</h2>
+            <div class="grid grid-cols-1 gap-12">
+
+                <!-- Project Card 1: 약한영웅 -->
+                <div class="card rounded-xl overflow-hidden md:flex-row">
+                    <img src="https://i.namu.wiki/i/F1d_kmVRep_kOTaehb-ooT5mHO3X1kdBZaeKn4c05KGYirz2sTHbEiu_d_F_STZvFZG0imP_wKnnJvkjI2bmQFqTkM5jlj5LaWpOJjQJmQQdDgNA9MbQfxlFv8ZSfcYya44GhZkfEzDPni8tlWM39g.webp" alt="[이미지: 약한영웅 Class 1]" class="project-image">
+                    <div class="p-6 flex flex-col justify-center">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-2xl font-bold">약한영웅 Class 1</h3>
+                                <p class="text-sky-400 font-semibold">제작실장</p>
+                            </div>
+                            <span class="tag text-sm font-medium px-3 py-1 rounded-full">DRAMA</span>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 담당 업무</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>프로젝트 예산 관리, 집행 및 정산 총괄</li>
+                                <li>제작 행정 업무 전반 지원</li>
+                                <li>주요 스태프 및 배우 계약 진행 및 관리</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>Wavve 오리지널 드라마 중 흥행 성공</li>
+                                <li>체계적인 예산 및 계약 관리로 프로젝트 안정성에 기여</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Card 2: 트웬티 트웬티 -->
+                <div class="card rounded-xl overflow-hidden md:flex-row">
+                    <img src="https://i.namu.wiki/i/OlqffsaskrmSxoQvuVgTI3FJIYTHdHMefvtQA_J9UXmwDVhAT2EoJsMMF6XQy8f768G54_eu8RlBFdtQhQQRClEYnIuL6-CxwpxsrmPRAbW6zz2icVrolV942i5bsqC2r2b47WjaLeANZFEOvGuB-g.webp" alt="[이미지: 트웬티 트웬티]" class="project-image">
+                    <div class="p-6 flex flex-col justify-center">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-2xl font-bold">트웬티 트웬티</h3>
+                                <p class="text-sky-400 font-semibold">CP (총괄 프로듀서)</p>
+                            </div>
+                            <span class="tag text-sm font-medium px-3 py-1 rounded-full">DRAMA</span>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 담당 업무</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>프로젝트 A to Z 총괄 (기획, 예산, 운영, 후반 작업)</li>
+                                <li>신규 IP 기획 및 개발</li>
+                                <li>제작 예산 편성, 집행 및 손익 관리</li>
+                                <li>핵심 스태프 및 배우 캐스팅, 계약 관리</li>
+                                <li>기획-편성-현장으로 이어지는 전체 스케줄 조율 및 이슈 관리</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>웹 누적 조회수 <span class="font-bold text-white">4,000만 뷰</span> 달성</li>
+                                <li>JTBC 동시 방영, TV-OTT 통합 드라마 화제성 <span class="font-bold text-white">종합 7위</span> 기록</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3: 한입만 시즌 2 -->
+                <div class="card rounded-xl overflow-hidden md:flex-row">
+                    <img src="https://i.namu.wiki/i/lDpiF-5VqR1orW35HZLWV4SuNKtdfa5kicvlcSe-lFbtqnKvypFmGfo4On38rqD3eBdSVZULylVxz0UyeuuElwMBVZZMWUhbsmXpsvJWxBHvQg61c0Jq28hc4JsUU212YvtyQJAgoiSooNZ8L97Nyw.webp" alt="[이미지: 한입만 시즌 2]" class="project-image">
+                    <div class="p-6 flex flex-col justify-center">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-2xl font-bold">한입만 시즌 2</h3>
+                                <p class="text-sky-400 font-semibold">메인 PD</p>
+                            </div>
+                            <span class="tag text-sm font-medium px-3 py-1 rounded-full">SITCOM</span>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 담당 업무</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>프로젝트 A to Z 총괄 (기획, 예산, 운영, 후반 작업)</li>
+                                <li>신규 IP 기획 및 개발 (시트콤 장르)</li>
+                                <li>제작 예산 편성, 집행 및 손익 관리</li>
+                                <li>촬영 및 후반 작업 등 전체 제작 스케줄 관리 및 현장 디렉팅</li>
+                                <li>갑작스러운 배우 교체 등 돌발 이슈 발생 시 신속한 대응 및 문제 해결</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>플레이리스트 최초의 시트콤 장르 드라마 런칭 성공</li>
+                                <li>에피소드 당 평균 <span class="font-bold text-white">172만회</span> 조회수 달성</li>
+                                <li>모든 에피소드 유튜브 조회수 <span class="font-bold text-white">140만뷰</span> 이상 기록</li>
+                                <li>배우 교체 이슈에도 안정적인 프로젝트 관리로 리스크 최소화</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Card 4: NPOP -->
+                <div class="card rounded-xl overflow-hidden md:flex-row">
+                    <img src="https://platum.kr/wp-content/uploads/2023/07/npop.png" alt="[이미지: NPOP]" class="project-image">
+                    <div class="p-6 flex flex-col justify-center">
+                         <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-2xl font-bold">NPOP</h3>
+                                <p class="text-sky-400 font-semibold">PD</p>
+                            </div>
+                            <span class="tag text-sm font-medium px-3 py-1 rounded-full">ENTERTAINMENT</span>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 담당 업무</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>K-POP 아티스트 퍼포먼스 콘텐츠 아이템 기획 및 대본 구성</li>
+                                <li>제작 예산 관리, 집행 및 정산</li>
+                                <li>출연 아티스트 및 스태프 계약, 현장 커뮤니케이션 담당</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>팬덤의 높은 호응 및 긍정적 바이럴 형성</li>
+                                <li>안정적인 제작 관리로 성공적인 아티스트 협업 레퍼런스 구축</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 5: 돌들의침묵 -->
+                <div class="card rounded-xl overflow-hidden md:flex-row">
+                    <img src="https://www.tvtime.com/_next/image?url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fv4%2Fseries%2F416531%2Fposters%2F620cfe451c7d6.jpg&w=640&q=75" alt="[이미지: 돌들의침묵]" class="project-image">
+                    <div class="p-6 flex flex-col justify-center">
+                         <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-2xl font-bold">돌들의침묵</h3>
+                                <p class="text-sky-400 font-semibold">PD</p>
+                            </div>
+                            <span class="tag text-sm font-medium px-3 py-1 rounded-full">ENTERTAINMENT</span>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 담당 업무</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>K-POP 아티스트 예능형 콘텐츠 아이템 기획 및 대본 구성</li>
+                                <li>제작 예산 관리, 집행 및 정산</li>
+                                <li>출연 아티스트 및 스태프 계약, 현장 커뮤니케이션 담당</li>
+                            </ul>
+                        </div>
+                         <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>채널의 대표 포맷으로 자리매김하며 높은 팬덤 충성도 확보</li>
+                                <li>안정적인 제작 관리로 성공적인 아티스트 협업 레퍼런스 구축</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 6: 내리겠습니다 지구에서 -->
+                <div class="card rounded-xl overflow-hidden md:flex-row">
+                    <img src="https://i.namu.wiki/i/GQdeNXIpURVVyjzdJ5RiMQxQ7FdPXbjBUx8bPrZCPxV68ESjk-TIlWAgv6RG3MQkSjzkGTTidqMtiIEOL6n18ppC9pDlD3UGjGy-fsqf_4rUKAuxg7zWm1xrvlT05YqDZWR7pRV81TE7X4CyY94_Ww.webp" alt="[이미지: 내리겠습니다 지구에서]" class="project-image">
+                    <div class="p-6 flex flex-col justify-center">
+                         <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-2xl font-bold">내리겠습니다 지구에서</h3>
+                                <p class="text-sky-400 font-semibold">CP (총괄 프로듀서)</p>
+                            </div>
+                            <span class="tag text-sm font-medium px-3 py-1 rounded-full">DRAMA</span>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 담당 업무</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>45부작 장편 프로젝트 A to Z 총괄</li>
+                                <li>초저예산 환경에서의 제작 예산 편성, 효율적 집행 및 관리</li>
+                                <li>기획, 계약, 현장 운영 등 제작 전반 관리</li>
+                                <li>효율적인 예산 집행 및 스케줄 관리를 통해 프로젝트 안정적 완수</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>초저예산 프로젝트임에도 불구하고, 내부 목표 시청 시간(OKR) <span class="font-bold text-white">130%</span> 초과 달성</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 7: 크리스마스가 싫은 네가지 이유 -->
+                <div class="card rounded-xl overflow-hidden md:flex-row">
+                    <img src="https://i.namu.wiki/i/V_Fz5TTgHMEoHk2wFsd0msjjxEldE3pZ2Es02VX9olQulTIi5jE2VWecFfYRoeMjyPx4cq5_TxGAJYnXhuGQhj_4lx8bxUJPIxAsrXtAFe1ml3YunM4FY0VgEdBDk_Iu-KbyoZJ7QZeUhcrPHzQoFQ.webp" alt="[이미지: 크리스마스가 싫은 네가지 이유]" class="project-image">
+                    <div class="p-6 flex flex-col justify-center">
+                         <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-2xl font-bold">크리스마스가 싫은 네가지 이유</h3>
+                                <p class="text-sky-400 font-semibold">CP (총괄 프로듀서)</p>
+                            </div>
+                            <span class="tag text-sm font-medium px-3 py-1 rounded-full">DRAMA</span>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 담당 업무</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>프로젝트 A to Z 총괄 (기획, 예산, 운영, 후반 작업)</li>
+                                <li>시즌 이슈를 활용한 신규 IP 기획 및 개발</li>
+                                <li>제작 예산 편성, 집행 및 관리</li>
+                                <li>전체 제작 스케줄 및 현장 운영 조율</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+                            <ul class="list-inside list-disc text-gray-400 space-y-1 text-sm">
+                                <li>크리스마스 시즌 공감 콘텐츠로 에피소드 당 평균 <span class="font-bold text-white">98만회</span> 조회수 달성</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mt-20">
+            <h2 class="text-3xl font-bold text-center mb-12">보유 기술 및 협업 툴</h2>
+            <div class="max-w-4xl mx-auto bg-gray-800 rounded-xl p-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div>
+                        <p class="font-bold text-lg">MS Office</p>
+                        <p class="text-gray-400">Excel, PPT, Word</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg">한컴</p>
+                        <p class="text-gray-400">HWP</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg">Google Workspace</p>
+                        <p class="text-gray-400">Drive, Docs, Sheets</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg">협업 툴</p>
+                        <p class="text-gray-400">Notion</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-700 mt-20">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <p class="text-lg font-semibold text-white">Contact Me</p>
+            <p class="mt-2">함께 만들고 싶은 이야기가 있다면, 언제든지 연락 주세요.</p>
+            <div class="mt-4">
+                <a href="mailto:dohg1@naver.com" class="hover:text-sky-400 transition-colors">dohg1@naver.com</a>
+                <span class="mx-2">|</span>
+                <a href="tel:010-7468-0219" class="hover:text-sky-400 transition-colors">010-7468-0219</a>
+            </div>
+            <p class="mt-8 text-sm">&copy; 2025 Dongjun Lee. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
